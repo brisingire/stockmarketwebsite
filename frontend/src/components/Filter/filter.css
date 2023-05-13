@@ -1,0 +1,14 @@
+.filterButton{
+    background: inherit;    
+    border:none
+}
+
+.filter{
+    display:flex; 
+    align-items: center;
+}
+.filterButtonOptions button{
+    background: white;  
+    border: none; 
+    color: rgb(18, 101, 142); 
+}

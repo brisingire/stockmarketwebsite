@@ -1,0 +1,36 @@
+.assetInformationContainer {
+    display: grid; 
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: stretch;
+    font-size: x-small;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.box {
+    display: flex; 
+    align-items: center;
+    padding: 0.2rem;
+    justify-content: start;
+    border-left: 0.1em solid rgb(207, 203, 203);
+    border-bottom: 0.1em solid rgb(207, 203, 203); 
+    min-width: 0;
+    max-width: 100%;
+    flex-grow: 1;
+    overflow: hidden; /* prevent content from overflowing outside the box */
+    word-wrap: break-word; /* allow text to wrap to next line if it exceeds box width */
+    
+}
+
+.box h4{
+    color: rgb(92, 89, 89);
+    overflow-wrap: break-word;
+    word-break: break-word;
+    max-height: 100%;
+}
+
+.boxEnd{
+    border-right: 0.1em solid rgb(207, 203, 203);
+    align-items: center;
+    padding: 0.2rem;
+}

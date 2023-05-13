@@ -1,0 +1,11 @@
+
+.sectorChartContainer{
+    margin-top: 3rem;
+}
+.SectorPriceInformation{
+    
+    font-size: x-small;
+    display: flex; 
+    align-items: center;
+    gap: 0.5rem;
+}

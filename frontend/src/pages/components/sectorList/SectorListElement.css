@@ -1,0 +1,33 @@
+
+.sectorListElement-container {
+    list-style: none;
+    border-bottom: 1px black solid;
+}
+.sectorListElement-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: smaller;
+    
+  }
+.sectorListElement-name {
+width: 35%;
+}
+.sectorListElement-performance {
+width: 21.7%;
+padding-left: 1rem;
+}
+.sectorListElement-name a{
+  text-decoration: none;
+  color: inherit; 
+}
+
+.sectorListElement-name a:hover{
+  color: gray;
+}
+
+@media (max-width: 1000px) {
+  .sectorListElement-highchart{
+    display: none;
+  }
+}

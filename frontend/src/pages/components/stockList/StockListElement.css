@@ -1,0 +1,35 @@
+
+.stockListElement-container {
+    list-style: none;
+    border-bottom: 1px black solid;
+}
+.stockListElement-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: smaller;
+    
+  }
+.stockListElement-name {
+width: 35%;
+}
+.stockListElement-performance {
+width: 21.7%;
+padding-left: 1rem;
+}
+.stockListElement-name a{
+  text-decoration: none;
+  color: inherit; 
+}
+
+.stockListElement-name a:hover{
+  color: gray;
+}
+
+
+@media (max-width: 1000px) {
+  .stockListElement-performance-chart{
+    display: none;
+  }
+}
+

@@ -1,0 +1,22 @@
+.SearchContainer{
+    position: relative;
+    width: 50%;
+    padding: 1rem;
+}
+@media (max-width: 1000px) {
+    .SearchContainer{
+        width: 90%;
+    }
+}
+.SearchField{
+    
+    padding-left: 0.5rem;
+    width: 98%;
+    height: 2rem;
+    border-radius: 0.3rem;
+    border-radius: 0.2rem;
+    font-size: medium;
+    outline: none; 
+    border: 1px solid rgb(255, 81, 0); 
+    box-shadow: 0px 0px 0px 3px orange;
+}

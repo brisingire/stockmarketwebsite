@@ -1,0 +1,147 @@
+[2022-12-20 14:10:54,745: WARNING/MainProcess] /home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-20 14:10:55,103: WARNING/ForkPoolWorker-11] Exception in thread 
+[2022-12-20 14:10:55,103: WARNING/ForkPoolWorker-11] Thread-1 (_run_via_pool)
+[2022-12-20 14:10:55,103: WARNING/ForkPoolWorker-11] :
+[2022-12-20 14:10:55,103: WARNING/ForkPoolWorker-11] Traceback (most recent call last):
+[2022-12-20 14:10:55,103: WARNING/ForkPoolWorker-11]   File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+[2022-12-20 14:10:55,103: WARNING/ForkPoolWorker-11]     
+[2022-12-20 14:10:55,103: WARNING/ForkPoolWorker-11] self.run()
+[2022-12-20 14:10:55,103: WARNING/ForkPoolWorker-11]   File "/usr/lib/python3.10/threading.py", line 953, in run
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11]     
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11] self._target(*self._args, **self._kwargs)
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/multitasking/__init__.py", line 104, in _run_via_pool
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11]     
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11] return callee(*args, **kwargs)
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/multi.py", line 199, in _download_one_threaded
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11]     
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11] data = _download_one(ticker, start, end, auto_adjust, back_adjust,
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/multi.py", line 213, in _download_one
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11]     
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11] return Ticker(ticker).history(period=period, interval=interval,
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/base.py", line 156, in history
+[2022-12-20 14:10:55,104: WARNING/ForkPoolWorker-11]     
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11] tz = self._get_ticker_tz(debug_mode, proxy, timeout)
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/base.py", line 358, in _get_ticker_tz
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11]     
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11] utils.cache_store_tkr_tz(self.ticker, tkr_tz)
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/utils.py", line 365, in cache_store_tkr_tz
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11]     
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11] raise Exception("Tkr {} tz already in cache".format(tkr))
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11] Exception
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11] : 
+[2022-12-20 14:10:55,105: WARNING/ForkPoolWorker-11] Tkr AAC tz already in cache
+[2022-12-20 14:10:55,149: WARNING/ForkPoolWorker-9] Exception in thread 
+[2022-12-20 14:10:55,149: WARNING/ForkPoolWorker-9] Thread-1 (_run_via_pool)
+[2022-12-20 14:10:55,149: WARNING/ForkPoolWorker-9] :
+[2022-12-20 14:10:55,149: WARNING/ForkPoolWorker-9] Traceback (most recent call last):
+[2022-12-20 14:10:55,149: WARNING/ForkPoolWorker-9]   File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]     
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9] self.run()
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]   File "/usr/lib/python3.10/threading.py", line 953, in run
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1] Exception in thread 
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1] Thread-1 (_run_via_pool)
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1] :
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]     
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1] Traceback (most recent call last):
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9] self._target(*self._args, **self._kwargs)
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1]   File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/multitasking/__init__.py", line 104, in _run_via_pool
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]     
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1]     
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9] return callee(*args, **kwargs)
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1] self.run()
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/multi.py", line 199, in _download_one_threaded
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1]   File "/usr/lib/python3.10/threading.py", line 953, in run
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]     
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9] data = _download_one(ticker, start, end, auto_adjust, back_adjust,
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/multi.py", line 213, in _download_one
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1]     
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1] self._target(*self._args, **self._kwargs)
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/multitasking/__init__.py", line 104, in _run_via_pool
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]     
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9] return Ticker(ticker).history(period=period, interval=interval,
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/base.py", line 156, in history
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1]     
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1] return callee(*args, **kwargs)
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]     
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/multi.py", line 199, in _download_one_threaded
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9] tz = self._get_ticker_tz(debug_mode, proxy, timeout)
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-9]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/base.py", line 358, in _get_ticker_tz
+[2022-12-20 14:10:55,150: WARNING/ForkPoolWorker-1]     
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1] data = _download_one(ticker, start, end, auto_adjust, back_adjust,
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-9]     
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/multi.py", line 213, in _download_one
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-9] utils.cache_store_tkr_tz(self.ticker, tkr_tz)
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-9]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/utils.py", line 365, in cache_store_tkr_tz
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1]     
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1] return Ticker(ticker).history(period=period, interval=interval,
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/base.py", line 156, in history
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-9]     
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-9] raise Exception("Tkr {} tz already in cache".format(tkr))
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1]     
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-9] Exception
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1] tz = self._get_ticker_tz(debug_mode, proxy, timeout)
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-9] : 
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-9] Tkr AAC tz already in cache
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/base.py", line 358, in _get_ticker_tz
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1]     
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1] utils.cache_store_tkr_tz(self.ticker, tkr_tz)
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1]   File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/yfinance/utils.py", line 365, in cache_store_tkr_tz
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1]     
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1] raise Exception("Tkr {} tz already in cache".format(tkr))
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1] Exception
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1] : 
+[2022-12-20 14:10:55,151: WARNING/ForkPoolWorker-1] Tkr AAC tz already in cache
+[2022-12-20 14:10:55,324: WARNING/ForkPoolWorker-2] [*********************100%***********************]  1 of 1 completed
+[2022-12-20 14:10:55,325: ERROR/ForkPoolWorker-2] Task api.tasks.update_stock_data[9f0c006c-f699-4a6a-a444-ad653d7f0f15] raised unexpected: IndexError('invalid index to scalar variable.')
+Traceback (most recent call last):
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/api/tasks.py", line 31, in update_stock_data
+    json_return[index.date().strftime('%Y-%m-%d')] = row["Close"][ticker]
+IndexError: invalid index to scalar variable.
+[2022-12-20 14:10:55,372: WARNING/ForkPoolWorker-12] [*********************100%***********************]  1 of 1 completed
+[2022-12-20 14:10:55,373: ERROR/ForkPoolWorker-12] Task api.tasks.update_stock_data[0fa21dca-6ddf-4455-977c-97f564a2de08] raised unexpected: IndexError('invalid index to scalar variable.')
+Traceback (most recent call last):
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/api/tasks.py", line 31, in update_stock_data
+    json_return[index.date().strftime('%Y-%m-%d')] = row["Close"][ticker]
+IndexError: invalid index to scalar variable.
+[2022-12-20 14:10:55,399: WARNING/ForkPoolWorker-10] [*********************100%***********************]  1 of 1 completed
+[2022-12-20 14:10:55,400: ERROR/ForkPoolWorker-10] Task api.tasks.update_stock_data[3cc4c7d9-303b-46f1-8115-6c22a1671982] raised unexpected: IndexError('invalid index to scalar variable.')
+Traceback (most recent call last):
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/api/tasks.py", line 31, in update_stock_data
+    json_return[index.date().strftime('%Y-%m-%d')] = row["Close"][ticker]
+IndexError: invalid index to scalar variable.
+[2022-12-20 14:11:09,285: WARNING/ForkPoolWorker-10] [*********************100%***********************]  1 of 1 completed
+[2022-12-20 14:11:09,286: ERROR/ForkPoolWorker-10] Task api.tasks.update_stock_data[53b66d19-fe0a-483e-ad17-4336c811011b] raised unexpected: IndexError('invalid index to scalar variable.')
+Traceback (most recent call last):
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/api/tasks.py", line 31, in update_stock_data
+    json_return[index.date().strftime('%Y-%m-%d')] = row["Close"][ticker]
+IndexError: invalid index to scalar variable.
+[2022-12-20 14:13:27,751: WARNING/ForkPoolWorker-10] [*********************100%***********************]  1 of 1 completed
+[2022-12-20 14:13:27,752: ERROR/ForkPoolWorker-10] Task api.tasks.update_stock_data[7c34a7d8-2784-4081-961a-4353e7dc7086] raised unexpected: IndexError('invalid index to scalar variable.')
+Traceback (most recent call last):
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 451, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/app/trace.py", line 734, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/brisi/Desktop/Stockmarket.industries/api/tasks.py", line 31, in update_stock_data
+    entry = Stock.objects.get(ticker=ticker)
+IndexError: invalid index to scalar variable.

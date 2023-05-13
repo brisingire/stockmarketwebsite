@@ -1,0 +1,12 @@
+.App {
+  font-family: 'Golos Text', sans-serif;
+  background-color:"#F2F2F2"; 
+  display: grid; 
+  grid-template-columns: 100%;
+  justify-content: center;
+  color: #4f4f4f; 
+  
+  
+}
+
+

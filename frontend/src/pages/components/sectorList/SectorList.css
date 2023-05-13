@@ -1,0 +1,22 @@
+
+th{
+    text-align: left;
+}
+
+th:hover{
+  cursor: pointer;
+  color: gray;
+}
+
+td, th {
+  padding: 10px;
+  font-size: smaller;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}

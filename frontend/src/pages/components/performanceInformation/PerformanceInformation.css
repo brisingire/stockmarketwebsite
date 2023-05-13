@@ -1,0 +1,12 @@
+.performanceInformationContainer{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.box p{
+    font-size: medium;
+}
+

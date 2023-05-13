@@ -1,0 +1,11 @@
+.industryChartContainer{
+    margin-top: 5rem;
+}
+
+.industryPriceInformation{
+    
+    font-size: x-small;
+    display: flex; 
+    align-items: center;
+    gap: 0.5rem;
+}

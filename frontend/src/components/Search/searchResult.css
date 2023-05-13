@@ -1,0 +1,25 @@
+.Searchresult{
+    z-index: 2;
+    position: absolute;
+    width: 95%;
+    background-color: white;
+    border-radius: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.Searchresult li{
+    list-style-type: none;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
+
+.Searchresult li:hover{
+    background: rgb(235, 232, 232); 
+}
+.Searchresult a{
+    text-decoration: none;
+    color: rgb(44, 42, 42); 
+}
+
+
+

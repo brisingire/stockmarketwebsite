@@ -1,0 +1,14 @@
+[2022-12-20 13:08:51,025: WARNING/MainProcess] /home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-20 13:11:55,369: WARNING/MainProcess] /home/brisi/Desktop/Stockmarket.industries/env/lib/python3.10/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-12-20 13:12:53,074: WARNING/ForkPoolWorker-9] [                       0%                       ]
+[2022-12-20 13:12:53,186: WARNING/ForkPoolWorker-9] [*********************100%***********************]  2 of 2 completed
+[2022-12-20 13:41:32,409: WARNING/ForkPoolWorker-9] [                       0%                       ]
+[2022-12-20 13:41:32,521: WARNING/ForkPoolWorker-9] [*********************100%***********************]  2 of 2 completed
+[2022-12-20 13:43:49,708: WARNING/ForkPoolWorker-9] [                       0%                       ]
+[2022-12-20 13:43:49,714: WARNING/ForkPoolWorker-9] [*********************100%***********************]  2 of 2 completed

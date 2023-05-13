@@ -1,0 +1,33 @@
+
+.themeListElement-container {
+    list-style: none;
+    border-bottom: 1px black solid;
+}
+.themeListElement-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: smaller;
+    
+  }
+.themeListElement-name {
+width: 35%;
+}
+.themeListElement-performance {
+width: 21.7%;
+padding-left: 1rem;
+}
+.themeListElement-name a{
+  text-decoration: none;
+  color: inherit; 
+}
+
+.themeListElement-name a:hover{
+  color: gray;
+}
+
+@media (max-width: 1000px) {
+  .themeListElement-highchart{
+    display: none;
+  }
+}

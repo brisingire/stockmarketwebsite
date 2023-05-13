@@ -1,0 +1,22 @@
+
+@media (min-width: 768px) {
+    .homeContainer{  
+        display: flex; 
+        flex-direction: column;
+        /*  gap between the elments  */ 
+        /* gap: 2rem; */
+        margin: auto;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .homeContainer{
+    display: flex;
+    flex-direction: column;
+    /* gap between the elments /
+    / gap: 2rem; */
+    margin: auto;
+    width: 100%;
+    }
+    }
